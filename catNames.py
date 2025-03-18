@@ -6,8 +6,7 @@ while True:
         break
     catNames.append(name)
 
-print('The names of the cats are: ')
+print('The names of the cats are:')
 
 for name in catNames:
-    for i in  range(len(catNames)):
-        print('cat name '+str(i+1)+' is '+catNames[i])
+    print(' '+name)

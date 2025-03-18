@@ -6,10 +6,6 @@ def collatz(number):
     print(result)
     return result
     
-#Value=int(input('Enter an integer!'))
-#while Value != 1:
-#    print('Enter an integer!')
- #   Value=int(input())
 try:
    number=int(input('enter a positive integer! '))
    if number <=0:
